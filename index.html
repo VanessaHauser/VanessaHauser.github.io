@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- PLEASE NO CHANGES BELOW THIS LINE (UNTIL I SAY SO)
+  <script language="javascript" type="text/javascript" src="libraries/p5.min.js"></script>
+  <script language="javascript" type="text/javascript" src="GD_Projekt_Webseite.js"></script>
+  OK, YOU CAN MAKE CHANGES BELOW THIS LINE AGAIN -->
+  <!-- This line removes any default padding and style.
+       You might only need one of these values set. -->
+
+       <script language="javascript" type="text/javascript" src="libraries/p5.min.js"></script>
+       <script language="javascript" type="text/javascript" src="instanz.js"></script>
+
+    
+   
+
+  <title>
+    Portfolio
+  </title>
+
+  <link rel="stylesheet" href="https://use.typekit.net/ief6ldg.css">
+
+  <link rel="stylesheet" type=text/css href="stylesheet.css">
+  <style> body { padding: 0; margin: 0; } </style>
+
+</head>
+
+<body>
+
+	  <header>
+			<nav class="navbar">
+
+      <a href="index.html#box1" class="nav-link">VANESSA_HAUSER_</a>
+  
+      <ul class="nav-menu">
+      <li class="nav-item"><p>_____________________________________________</p></li>
+      <li class="nav-item"><a href="index.html#illubox1" class="nav-link">ILLUSTRATION_</a></li>
+      <li class="nav-item"><a href="index.html#animbox1" class="nav-link">ANIMATION_</a></li>
+      <li class="nav-item"><a href="index.html#storybox1" class="nav-link">STORYBOARDING_</a></li>
+     <li class="nav-item"><a href="index.html#designbox1" class="nav-link">DESIGN_</a></li>
+      </ul>
+			</div>
+
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+
+    </nav>
+		</header>
+    
+   <main>
+  <div class="grid" id="content">
+   <div class="felxbox"  id="box1">
+      <div id = "p5sketch">
+      </div>
+    </div>
+
+
+    <div class="felxbox" id="illubox1">
+      <h1>ILLUSTRATION_</h1>
+    </div>
+      
+   <div class="felxbox"  id="illubox2">
+    <figure>
+        <img id="illubildbox2" src="box3.jpg"><br>
+        <figcaption> PERSONAL ILLUSTRATION | 2021 </figcaption>
+      </figure>
+    </div>
+
+    <div class="flexbox" id="illubox3">
+    <figure>
+     <img id="illubildbox3" src="box4.jpg">
+     <figcaption> PERSONAL ILLUSTRATION | 2022</figcaption>
+    </figure>
+    </div>
+
+   <div class="flexbox" id="illusbox4">
+    <figure>
+    <img id="illubildbox4" src="box5.jpg">
+      <figcaption>PERSONAL ILLUSTRATION | 2022</figcaption>
+    </figure>
+   </div>
+
+  <div class="flexbox" id="illubox5">
+   <figure>
+   <img id="illubildbox5" src="box6.jpg">
+   <figcaption>ILLUSTRATION FOR 25/41 | 2022</figcaption>
+  </figure>
+  </div>
+
+  <div class="flexbox" id="illubox6">
+  <figure>
+  <img id="illubildbox6" src="box7.jpg">
+  <figcaption>PERSONAL ILLUSTRATION | 2022</figcaption>
+  </figure>
+  </div>
+
+    <div class="flexbox" id="illubox7">
+    </div>
+
+    <div class="flexbox" id="animbox1">
+      <h1>ANIMATION_</h1>
+    </div>
+    
+    <div class="flexbox" id="animbox2">
+    <figure>
+    <video controls autoplay muted id="video1" autoplay ><source src="videos/rk.mp4" type="video/mp4"></source></video><br>
+    <figcaption>FH PROJEKT | 2022 </figcaption>
+    </figure>  
+  </div>
+
+    <div class="flexbox" id="animbox3">
+      <figure>
+      <video controls autoplay muted id="video2" ><source src="videos/startup.mp4" type="video/mp4"></source></video>
+      <figcaption>FH PROJEKT | 2022 </figcaption>
+      </figure>
+    </div>
+
+    <div class="flexbox" id="animbox4">
+      <figure>
+      <video controls autoplay muted id="video3" ><source src="videos/kunst.mp4" type="video/mp4"></source></video>
+      <figcaption>FH PROJEKT | 2022 </figcaption>
+    </figure>
+    </div>
+
+    <div class="flexbox" id="animbox5">
+      <figure>
+      <video controls autoplay muted id="video4" ><source src="videos/mediap.mp4" type="video/mp4"></source></video>
+      <figcaption>FH PROJEKT - AFTER EFFECTS TEXT ANIMATION| 2022 </figcaption>
+    </figure>
+    </div>
+
+    <div class="flexbox" id="storybox1">
+      <h1>STORYBOARDING_</h1>
+    </div>
+
+    <div class="flexbox" id="storybox2">
+      <figure>
+      <img id="storybildbox2" src="storyboard1/storyboard1.jpg">
+      <figcaption>FH PROJEKT | 2022 </figcaption>
+    </figure>
+    </div>
+
+    <div class="flexbox" id="storybox2_2">
+      <img id="storybildbox2_2" src="storyboard1/frames.png">
+      </div>
+
+    <div class="flexbox"  id="storybox3">
+      <figure>
+      <img id="storybildbox3" src="storyboard2/storyboard2.jpg">
+      <figcaption>FH PROJEKT | 2022 </figcaption>
+    </figure>
+    </div>
+
+    <div class="flexbox" id="storybox3_2">
+      <img id="storybildbox3_2" src="storyboard2/frames.png">
+      </div>
+ 
+    <div class="flexbox"  id="storybox4">
+      <figure>
+      <img id="storybildbox4" src="storyboard3/storyboard3.jpg">
+      <figcaption>FH PROJEKT | 2022 </figcaption>
+    </figure>
+    </div>
+
+    <div class="flexbox" id="storybox4_2">
+      <img id="storybildbox4_2" src="storyboard3/frames.png">
+      </div>
+
+    <div class="flexbox" id="designbox1">
+      <h1>DESIGN_</h1>
+    </div>
+
+    <div class="flexbox" id="designbox2">
+      <figure>
+      <img id="designbildbox2" src="box18.jpg">
+      <figcaption>FH PROJEKT | 2022 </figcaption>
+    </figure>
+    </div>
+
+    <div class="flexbox" id="designbox3">
+      <img id="designbildbox3" src="box19.jpg">
+    </div>
+
+    <div class="flexbox" id="designbox4"> 
+      <img id="designbildbox4" src="box20.jpg">
+    </div>
+
+  <div class="flexbox" id="designbox5">
+    <img id="designbildbox5" src="box21.jpg">
+  </div>
+
+  <div class="flexbox" id="aboutbox1">
+    <h1>ABOUT_ME_</h1>
+  </div>
+
+  <div class="flexbox" id="aboutbox2">
+    <img id="aboubildbox2" src="aboutme.jpg">
+  </div>
+
+  <div class="flexbox" id="aboutbox3">
+    <p>
+      HI I AM VANESSA. I AM A DESIGN STUDENT AT THE INSTITUTE OF DESIGN AND COMMUNICATION AT THE FH JOANNEUM IN GRAZ. I DO ILLUSTRATIONS, ANIMATIONS, STORYBOARDING AND DESIGN.
+      YOU CAN CONTACT ME BY 
+      <a  id="contact" href="mailto:vanessamhauser@outlook.com">E-MAIL</a>  OR DM ME ON 
+      <a id="contact" href="https://www.instagram.com/vanessahauserdesigns/" target="_blank">INSTAGRAM</a>.<br><br>
+     
+      LOTS OF LOVE<br>
+      VANESSA<br>
+      </p>
+
+       <img id="aboubildbox3" src="cat.gif"><br>
+  </div>
+</div>
+
+</main>
+
+<footer>
+  <div id="foot">
+    <ul>
+      <li><a href="index.html#box1">ABOUT_ME_</a></li>
+      <li><a id="contact" href="https://www.instagram.com/vanessahauserdesigns/" target="_blank">INSTAGRAM_</a></li>
+      <li><a id="contact" href="mailto:vanessamhauser@outlook.com">EMAIL_</a></li>
+    </ul>
+  </div>
+
+</footer>
+<script src="menue.js"></script>
+</body>
+</html>
+
+
+<!--.class
+#id-->
