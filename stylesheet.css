@@ -3,6 +3,26 @@
 padding:0;
 }
 
+@font-face {
+	
+font-family:'koven';
+   font-style: normal;
+   src: url('C:/Users/Vanessa/Documents/00 FONTS/KOVEN_Font_Hauser_Milchrahm/KOVEN_Font_Hauser_Milchrahm/Koven-Regular.otf');
+
+}
+
+@font-face {
+	
+	font-family:'Shadowsintolight-Regular';
+	   font-style: normal;
+	   font-weight: 400;
+	   src: url('C:/Users/Vanessa/Documents/00 FONTS/Shadows_Into_Light/ShadowsIntoLight-Regular.ttf');
+	   src: local(''),
+	   url('C:/Users/Vanessa/Documents/00 FONTS/Shadows_Into_Light/ShadowsIntoLight-Regular.ttf') format(truetype);
+	}
+	
+
+
 body {
 	font-family:koven;
 	line-height:150%;
@@ -654,16 +674,6 @@ figcaption{
    
 }
 */
-
-@font-face {
-	
-	font-family:'Shadowsintolight-Regular';
-   font-style: normal;
-   font-weight: 400;
-   src: url('C:/Users/Vanessa/Documents/00 FONTS/Shadows_Into_Light/ShadowsIntoLight-Regular.ttf');
-   src: local(''),
-   url('C:/Users/Vanessa/Documents/00 FONTS/Shadows_Into_Light/ShadowsIntoLight-Regular.ttf') format(truetype);
-}
 
 
 @media screen and (min-width: 481px) and (max-width: 767px),  (min-width: 768px) and (max-width: 1024px){
