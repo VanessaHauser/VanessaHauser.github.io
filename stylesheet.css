@@ -12,7 +12,6 @@ font-family:'koven';
 }
 
 @font-face {
-	
 	font-family:'Shadowsintolight-Regular';
 	   font-style: normal;
 	   font-weight: 400;
@@ -272,20 +271,9 @@ figure {
 
 figcaption{
 	display: block;
-	text-align: left;
+	text-align: centre;
 	/*font-family: Handschriftzahlen-Regular;*/
 }
-
-/*
-.item{
-	position: relative;
-	align-items: center;
-
-}
-
-.beschreibung{
-	text-align: left;
-}*/
 
 #illubildbox3{
 	width:85%;
@@ -406,7 +394,7 @@ figcaption{
 }
 
 #video4{
-	width:100%;
+	width:80%;
 	height:auto;
 }
 
