@@ -23,10 +23,13 @@ font-family:'koven';
 
 
 body {
+	height:100%;
 	font-family:koven;
 	line-height:150%;
     font-size:20px;
 	overflow-x: hidden; /* Hide horizontal scrollbar */
+	overflow: scroll;
+	-webkit-overflow-scrolling: touch;
 	
 }
 
@@ -208,13 +211,6 @@ main{
 	text-align: center;
 	overflow:auto;
 }
-	/*scroll-snap-type:y mandatory;
-}*/
-
-/*.flexbox{
-	scroll-snap-align:center;
-}*/
-
 
 #box1{
 	display:flex;
