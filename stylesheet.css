@@ -69,7 +69,7 @@ li{
 	display:flex;
 	justify-content: space-between;
 	/*align-items: center;*/
-	text-align: right;
+	text-align: left;
 	padding-left: 25px;
 }
 
@@ -274,7 +274,6 @@ figure {
 figcaption{
 	display: block;
 	text-align: centre;
-	/*font-family: Handschriftzahlen-Regular;*/
 }
 
 #illubildbox3{
@@ -676,6 +675,10 @@ figcaption{
 		justify-content: center;
 	}
 
+	figcaption{
+		font-size: 12px;
+	}
+
 	header{
 		background-color: white !important;
 	}
@@ -688,7 +691,6 @@ figcaption{
 
 	.hamburger{
 		display: block;
-		/*right: 100%;*/
 	}
 
 	.hamburger.active .bar:nth-child(2){
@@ -761,7 +763,7 @@ figcaption{
 	}
 	
 	#illubildbox2{	
-		width:65%;
+		width:50%;
 		height:auto;
 	
 	}
@@ -771,49 +773,19 @@ figcaption{
 		grid-row: 4/ span 1;
 	}
 
-	/*.flexbox{
-		position:relative;
-		display:flex;
-		flex-wrap: wrap;
-	}*/
-
 	#illubildbox3{
-		width:65%;
+		width:50%;
 		height:auto;
 	}
-
-	/*.flexbox#illubildbox3{
-		position:relative;
-		overflow: hidden;
-		transition:0.5s;
-	}
-
-	.flexbox#illubildbox3:hover{
-		z-index:1;
-		transform:scale(1.25);
-		box-shadow:0 25px 40px rgb(0,0,0,.5);
-	}
-
-	.beschreibung{
-			display:flex;
-			width:100%;
-			height:100%;
-			opacity:0;
-			color:white;
-			font-family:dubai;
-			justify-content: center;
-			align-items: center;
-	}
-
-	*/
 	
-	#illusbox4{
+	
+	#illubox4{
 		grid-column: 1/ span 4;
 		grid-row: 5/ span 1;
 	}
 	
 	#illubildbox4{
-		width:65%;
+		width:50%;
 		height:auto;
 	}
 	
@@ -823,7 +795,7 @@ figcaption{
 	}
 	
 	#illubildbox5{
-		width:65%;
+		width:50%;
 		height:auto;
 	}
 	
@@ -968,7 +940,7 @@ figcaption{
 	}
 	
 	#designbildbox2{
-		width:45%;
+		width:40%;
 		height:auto;
 	}
 	
@@ -978,7 +950,7 @@ figcaption{
 	}
 	
 	#designbildbox3{
-		width:45%;
+		width:40%;
 		height:auto;
 	}
 	
@@ -998,7 +970,7 @@ figcaption{
 	}
 	
 	#designbildbox5{
-		width:45%;
+		width:40%;
 		height:auto;
 	}
 	
@@ -1018,7 +990,7 @@ figcaption{
 	}
 	
 	#aboutbox3{
-		padding: 50px;
+		padding-top: 20px;
 		font-size: 12px;
 		grid-column: 1/ span 4;
 		grid-row: 28/ span 1;
@@ -1028,12 +1000,21 @@ figcaption{
 		width:auto;
 		height:50%;
 	}
+
+	p{
+		align-items: center;
+		justify-content: center;
+	   }
 }
 
 @media screen and (max-width:480px) {
 
 	h1 {
 		font-size:20px;
+	}
+
+	figcaption{
+		font-size:12px;
 	}
 
 	header{
@@ -1137,7 +1118,7 @@ figcaption{
 		height:auto;
 	}
 	
-	#illusbox4{
+	#illubox4{
 		grid-column: 1/ span 4;
 		grid-row: 5/ span 1;
 	}
@@ -1359,10 +1340,7 @@ figcaption{
 	}
 	
 	#aboutbox3{
-		display: flex;
-		text-align:center;
-		align-items: center;
-		justify-content: center;
+		padding-top: 20px;
 		font-size: 12px;
 		grid-column: 1/ span 4;
 		grid-row: 28/ span 1;
@@ -1371,12 +1349,5 @@ figcaption{
 	#aboubildbox3{
 		width:auto;
 		height:50%;
-	}
-
-	p{
-		display:flex;
-		text-align: center;
-		align-items: center;
-		justify-content: center;
 	}
 }
