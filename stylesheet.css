@@ -983,7 +983,7 @@ figcaption{
 	
 	#aboubildbox2{
 		width:auto;
-		height:85%;
+		height:80%;
 	}
 	
 	#aboutbox3{
@@ -1004,7 +1004,7 @@ figcaption{
 	   }
 }
 
-@media screen and (max-width:480px) {
+@media screen and (min-width:480px) {
 
 	h1 {
 		font-size:20px;
