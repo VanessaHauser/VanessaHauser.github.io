@@ -23,13 +23,14 @@ font-family:'koven';
 
 
 body {
-	height:100%;
+	
 	font-family:koven;
 	line-height:150%;
     font-size:20px;
-	overflow-x: hidden; /* Hide horizontal scrollbar */
+	/*height:100%;
+	overflow-x: hidden; /* Hide horizontal scrollbar
 	overflow: scroll;
-	-webkit-overflow-scrolling: touch;
+	-webkit-overflow-scrolling: touch;*/
 	
 }
 
@@ -227,7 +228,7 @@ main{
 	display:flex;
 	background-image:url("hintergründe/hintergrund1.png");
 	background-color: lightgreen;
-	background-size:60%;
+	background-size:80%;
 	background-repeat:no-repeat;
 	background-position:center;
 	background-attachment: fixed;
@@ -331,7 +332,7 @@ figcaption{
 	display: flex;
 	background-image:url("hintergründe/hintergrund2.png");
 	background-color: #62D9FF;
-	background-size:60%;
+	background-size:80%;
 	background-repeat:no-repeat;
 	background-position:center;
 	background-attachment: fixed;
@@ -399,7 +400,7 @@ figcaption{
 	display: flex;
 	background-image:url("hintergründe/hintergrund3.png");
 	background-color: #9280FF;
-	background-size:60%;
+	background-size:80%;
 	background-repeat:no-repeat;
 	background-position:center;
 	background-attachment: fixed;
@@ -502,7 +503,7 @@ figcaption{
 	display: flex;
 	background-image:url("hintergründe/hintergrund4.png");
 	background-color: #D375FF;
-	background-size:60%;
+	background-size:80%;
 	background-repeat:no-repeat;
 	background-position:center;
 	background-attachment: fixed;
@@ -572,7 +573,7 @@ figcaption{
 	display: flex;
 	background-image:url("hintergründe/hintergrund5.png");
 	background-color:#FF88C1;
-	background-size:60%;
+	background-size:80%;
 	background-repeat:no-repeat;
 	background-position:center;
 	background-attachment: fixed;
@@ -737,7 +738,7 @@ figcaption{
 	.grid{
 		display:grid;
 		grid-template-columns:1fr*4;
-		grid-template-rows:50vh 50vh 50vh 50vh 50vh 50vh 50vh 50vh 50vh 50vh 50vh 50vh 50vh 50vh 50vh 50vh 50vh 50vh 50vh 50vh 50vh 50vh 50vh 50vh 50vh 50vh 50vh 50vh ;
+		grid-template-rows:80vh 80vh 80vh 80vh 80vh 80vh 80vh 80vh 80vh 80vh 80vh 80vh 80vh 80vh 80vh 80vh 80vh 80vh 80vh 80vh 80vh 80vh 80vh 80vh 80vh 80vh 80vh 80vh;
 		text-align: center;
 		font-size:20px;
 	
@@ -1076,7 +1077,7 @@ figcaption{
 	.grid{
 		display:grid;
 		grid-template-columns:1fr*4;
-		grid-template-rows:50vh 50vh 50vh 50vh 50vh 50vh 50vh 50vh 50vh 50vh 50vh 50vh 50vh 50vh 50vh 50vh 50vh 50vh 50vh 50vh 50vh 50vh 50vh 50vh 50vh 50vh 50vh 50vh ;
+		grid-template-rows:80vh 80vh 80vh 80vh 80vh 80vh 50vh 50vh 80vh 80vh 80vh 80vh 80vh 80vh 80vh 80vh 80vh 80vh 80vh 80vh 80vh 80vh 80vh 80vh 80vh 80vh 80vh 80vh;
 		text-align: center;
 		font-size:20px;
 	
