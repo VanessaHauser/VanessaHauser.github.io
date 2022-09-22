@@ -582,26 +582,28 @@ figcaption{
 
 #aboubildbox2{
 	border: 2px solid black;
-	width:auto;
-	height:80%;
+	width:80%;
+	height:auto;
 }
 
 #aboutbox3{
-	padding:300px 100px 100px 100px;
-	font-size: 17px;
-	text-align: left;
+	display: flex;
 	align-items: center;
 	justify-content: center;
 	grid-column: 3/ span 2;
 	grid-row: 20/ span 1;
-	font-size: 16px;
+
+	padding:300px 100px 100px 100px;
+	
 	font-family: shadows-into-light, sans-serif;
+	text-align: left;
+	font-size: 16px;
 	font-weight: 600;
 }
 
-#aboubildbox3{
-	width:auto;
-	height:30%;
+#aboutbildbox3{
+	width:50%;
+	height:auto;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px), (max-height:782px) /*(min-width: 1280px)*/{
@@ -933,8 +935,8 @@ figcaption{
 	}
 	
 	#aboubildbox2{
-		width:auto;
-		height:80%;
+		width:50%;
+		height:auto;
 	}
 	
 	#aboutbox3{
@@ -944,9 +946,10 @@ figcaption{
 		grid-row: 28/ span 1;
 	}
 	
-	#aboubildbox3{
-		width:auto;
-		height:50%;
+	#aboutbildbox3{
+		
+		width:50%;
+		height:auto;
 	}
 
 	p{
@@ -1285,8 +1288,8 @@ figcaption{
 	}
 	
 	#aboubildbox2{
-		width:auto;
-		height:80%;
+		width:50%;
+		height:auto;
 	}
 	
 	#aboutbox3{
@@ -1296,9 +1299,9 @@ figcaption{
 		grid-row: 28/ span 1;
 	}
 	
-	#aboubildbox3{
-		width:auto;
-		height:50%;
+	#aboutbildbox3{
+		width:50%;
+		height:auto;
 	}
 
 	p{
@@ -1643,8 +1646,8 @@ figcaption{
 	}
 	
 	#aboubildbox2{
-		width:auto;
-		height:70%;
+		width:70%;
+		height:auto;
 	}
 	
 	#aboutbox3{
@@ -1654,8 +1657,8 @@ figcaption{
 		grid-row: 28/ span 1;
 	}
 	
-	#aboubildbox3{
-		width:auto;
-		height:50%;
+	#aboutbildbox3{
+		width:50%;
+		height:auto;
 	}
 }
