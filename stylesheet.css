@@ -195,7 +195,7 @@ main{
 	grid-template-columns:1fr 1fr 1fr 1fr;
 	grid-template-rows:100vh 100vh 100vh 100vh 100vh 100vh 100vh 100vh 100vh 100vh 100vh 100vh 100vh 100vh 100vh 100vh 100vh 100vh 100vh 100vh;
 	text-align: center;
-	overflow:auto;
+	/*overflow:auto;*/
 }
 
 figure {
@@ -604,6 +604,7 @@ figcaption{
 #aboutbildbox3{
 	width:50%;
 	height:auto;
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px), (max-height:782px) /*(min-width: 1280px)*/{
@@ -940,22 +941,23 @@ figcaption{
 	}
 	
 	#aboutbox3{
-		padding-top: 20px;
+		padding-top: 10px;
 		font-size: 12px;
 		grid-column: 1/ span 4;
 		grid-row: 28/ span 1;
-	}
-	
-	#aboutbildbox3{
-		
-		width:50%;
-		height:auto;
 	}
 
 	p{
 		align-items: center;
 		justify-content: center;
 	   }
+
+	#aboutbildbox3{
+
+		width:70%;
+		height:auto;
+		
+	}
 }
 
 @media screen and (min-width: 481px) and (max-width: 767px)/*,  (min-width: 768px) and (max-width: 1024px)*/{
@@ -1300,7 +1302,7 @@ figcaption{
 	}
 	
 	#aboutbildbox3{
-		width:50%;
+		width:70%;
 		height:auto;
 	}
 
@@ -1658,7 +1660,7 @@ figcaption{
 	}
 	
 	#aboutbildbox3{
-		width:50%;
+		width:70%;
 		height:auto;
 	}
 }
