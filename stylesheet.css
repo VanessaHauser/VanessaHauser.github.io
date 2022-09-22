@@ -24,15 +24,9 @@ font-family:'koven';
 
 
 body {
-	
 	font-family:koven, sans-serif;
 	line-height:150%;
     font-size:20px;
-	/*height:100%;
-	overflow-x: hidden; /* Hide horizontal scrollbar
-	overflow: scroll;
-	-webkit-overflow-scrolling: touch;*/
-	
 }
 
 h1 {
@@ -43,12 +37,6 @@ h1 {
 	align-items: center;
 	justify-content: center;
 }
-
-/*.flexbox{
-	scroll-snap-type:y mandatory;
-	overflow-y:scroll;
-	height:100vh;
-}*/
 
 li{
 	list-style: none;
@@ -73,7 +61,6 @@ li{
 .nav-menu{
 	display:flex;
 	justify-content: space-between;
-	/*align-items: center;*/
 	text-align: left;
 	padding-left: 25px;
 }
@@ -203,15 +190,26 @@ main{
 	height: 100%;
 }
 
-
 .grid{
 	display:grid;
-	/*column-gap: 10px;
-	row-gap: 10px;*/
 	grid-template-columns:1fr 1fr 1fr 1fr;
 	grid-template-rows:100vh 100vh 100vh 100vh 100vh 100vh 100vh 100vh 100vh 100vh 100vh 100vh 100vh 100vh 100vh 100vh 100vh 100vh 100vh 100vh;
 	text-align: center;
 	overflow:auto;
+}
+
+figure {
+	font-size: 16px;
+	font-family: shadows-into-light, sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	text-align: center;
+	align-items:center;
+  }
+
+figcaption{
+	display: block;
+	text-align: center;
 }
 
 #box1{
@@ -247,7 +245,8 @@ main{
 	grid-row: 3/ span 1;
 }
 
-#illubildbox2{	
+#illubildbox2{
+	border: 2px solid black;	
 	width:85%;
 	height:auto;
 }
@@ -260,24 +259,12 @@ main{
 	grid-row: 3/ span 1;
 }
 
-figure {
-	font-size: 16px;
-	font-family: shadows-into-light, sans-serif;
-	font-weight: 600;
-	font-style: normal;
-	text-align: center;
-	align-items:center;
-  }
 
-figcaption{
-	display: block;
-	text-align: center;
-}
 
 #illubildbox3{
+	border: 2px solid black;
 	width:85%;
 	height:auto;
-	align-items: bottom right;
 }
 
 #illubox4{
@@ -289,6 +276,7 @@ figcaption{
 }
 
 #illubildbox4{
+	border: 2px solid black;
 	width:85%;
 	height:auto;
 }
@@ -302,6 +290,7 @@ figcaption{
 }
 
 #illubildbox5{
+	border: 2px solid black;
 	width:85%;
 	height:auto;
 }
@@ -315,6 +304,7 @@ figcaption{
 }
 
 #illubildbox6{
+	border: 2px solid black;
 	width:70%;
 	height:auto;
 }
@@ -362,6 +352,7 @@ figcaption{
 }
 
 #video2{
+	border: 2px solid black;
 	width:80%;
 	height:auto;
 }
@@ -389,6 +380,7 @@ figcaption{
 }
 
 #video4{
+	border: 2px solid black;
 	width:80%;
 	height:auto;
 }
@@ -589,6 +581,7 @@ figcaption{
 }
 
 #aboubildbox2{
+	border: 2px solid black;
 	width:auto;
 	height:80%;
 }
@@ -611,55 +604,356 @@ figcaption{
 	height:30%;
 }
 
-/*@media screen and (min-width: 1280px){
+@media screen and (min-width: 768px) and (max-width: 1024px), (max-height:782px) /*(min-width: 1280px)*/{
+	h1 {
+		font-size:20px;
+		display:flex;
+		text-align: center;
+		align-items: center;
+		justify-content: center;
+	}
+
+	figcaption{
+		font-size: 12px;
+	}
+
+	header{
+		background-color: white !important;
+	}
 
 	.navbar{
-		display:flex;
 		width: 96%;
-		position:fixed;
-		min-height: 70px;
-		justify-content: space-between;
-		align-items: center;
-		padding: 0 24px;
-		
+		background-color: white !important;
+
 	}
 
-	.nav-menu li:first-child {
+	.hamburger{
+		display: block;
+	}
+
+	.hamburger.active .bar:nth-child(2){
+		opacity: 0;
+	}
+
+	.hamburger.active .bar:nth-child(1){
+		transform: translateY(8px) rotate(45deg);
+	}
+
+	.hamburger.active .bar:nth-child(3){
+		transform: translateY(-8px) rotate(-45deg);
+	}
+
+	.nav-menu{
+		position: fixed;
+		left: -150%;
+		top:70px;
+		gap: 0;
+		flex-direction: column;
+		background-color: white;
+		width: 100%;
+		justify-content: left;
+		align-items: left;
+		transition: 0.3%;
+	}
+
+	.nav-item{
+		margin: 16px 0;
+	}
+
+	.nav-menu.active{
+		left: 0;
+	}
+
+	footer{
 		display: none;
 	}
+
 	
-	.nav-menu{
+	main{
+		color:black;
+		margin:auto;
+		width:100%;
+		height: 100%;
+	}
+
+	.grid{
+		display:grid;
+		grid-template-columns:1fr*4;
+		grid-template-rows:80vh 80vh 80vh 80vh 80vh 80vh 80vh 80vh 80vh 80vh 80vh 80vh 80vh 80vh 80vh 80vh 80vh 80vh 80vh 80vh 80vh 80vh 80vh 80vh 80vh 80vh 80vh 80vh;
+		text-align: center;
+		font-size:20px;
+	
+	}
+
+	#box1{
+		background-attachment: initial;
+		background-size: 100%;
+		grid-column: 1/ span 4;
+		grid-row: 1/ span 1;
+	}
+
+	#illubox1{
+		grid-column: 1/ span 4;
+		grid-row: 2/ span 1;
+	}
+	
+	#illubox2{
+		grid-column: 1/ span 4;
+		grid-row: 3/ span 1;
+	}
+	
+	#illubildbox2{	
+		width:35%;
+		height:auto;
+	
+	}
+	
+	#illubox3{
+		grid-column: 1/ span 4;
+		grid-row: 4/ span 1;
+	}
+
+	#illubildbox3{
+		width:35%;
+		height:auto;
+	}
+	
+	
+	#illubox4{
+		grid-column: 1/ span 4;
+		grid-row: 5/ span 1;
+	}
+	
+	#illubildbox4{
+		width:35%;
+		height:auto;
+	}
+	
+	#illubox5{
+		grid-column: 1/ span 4;
+		grid-row: 6/ span 1;
+	}
+	
+	#illubildbox5{
+		width:35%;
+		height:auto;
+	}
+	
+	#illubox6{
+		grid-column: 1/ span 4;
+		grid-row: 7/ span 2;
+	}
+	
+	#illubildbox6{
+		width:50%;
+		height:auto;
+	}
+	
+	
+	#illubox7{
+		grid-column: 1/ span 4;
+		grid-row: 8/ span 2;
+	}
+	
+	#animbox1{
+		grid-column: 1/ span 4;
+		grid-row: 9/ span 1;
+	}
+	
+	#animbox2{
+		grid-column: 1/ span 4;
+		grid-row: 10/ span 1;
+	}
+	#video1{
+		width:55%;
+		height:auto;
+	}
+	
+	#animbox3{
+		grid-column: 1/ span 4;
+		grid-row: 11/ span 1;
+	}
+	
+	#video2{
+		width:55%;
+		height:auto;
+	}
+	
+	#animbox4{
+		grid-column: 1/ span 4;
+		grid-row: 12/ span 1;
+	}
+	
+	#video3{
+		width:55%;
+		height:auto;
+	}
+
+	#animbox5{
 		display:flex;
-		justify-content: space-between;
 		align-items: center;
-	}	
-
-	#foot li:first-child {
-		display: flex;
-		width:90%;
+		justify-content: center;
+		grid-column: 1/ span 4;
+		grid-row: 13/ span 1;
 	}
-
-	#foot li:nth-child(2){
-		width: 90%;
-		
-	}
-}*/
-
-/*
-@font-face {
 	
-	font-family:'Handschriftzahlen-Regular';
-   font-style: normal;
-   font-weight: 400;
-   src: local('Handschriftzahlen-Regular'),
-   url(/DieserPC/Dokumente/00FONTS/Handschriftzahlen-Regular.otf) format('otf'),
-   url(/DieserPC/Dokumente/00FONTS/Handschriftzahlen-Regular.otf) format('otf');
-   
+	#video4{
+		width:55%;
+		height:auto;
+	}
+	
+	#storybox1{
+		background-attachment: initial;
+		background-size: 100%;
+		grid-column: 1/ span 4;
+		grid-row: 14/ span 1;
+	}
+	
+	
+	#storybox2{
+		grid-column: 1/ span 4;
+		grid-row: 15/ span 1;
+	}
+	
+	#storybildbox2{
+		width:60%;
+		height:auto;
+	}
+	
+	#storybox2_2{
+		grid-column: 1/ span 4;
+		grid-row: 16/ span 1;
+	}
+	
+	#storybildbox2_2{
+		width:45%;
+		height:auto;
+	}
+	
+	
+	#storybox3{
+		grid-column: 1/ span 4;
+		grid-row: 17/ span 1;
+	}
+	
+	#storybildbox3{
+		width:50%;
+		height:auto;
+	}
+	
+	#storybox3_2{
+		grid-column: 1/ span 4;
+		grid-row: 18/ span 1;
+	}
+	
+	#storybildbox3_2{
+		width:35%;
+		height:auto;
+	}
+	
+	#storybox4{
+		grid-column: 1/ span 4;
+		grid-row: 19/ span 1;
+	}
+	
+	#storybildbox4{
+		width:50%;
+		height:auto;
+	}
+	
+	#storybox4_2{
+		grid-column: 1/ span 4;
+		grid-row: 20/ span 1;
+	}
+	
+	#storybildbox4_2{
+		width:45%;
+		height:auto;
+	}
+	
+	#designbox1{
+		background-attachment: initial;
+		background-size: 100%;
+		grid-column: 1/ span 4;
+		grid-row: 21/ span 1;
+	}
+	
+	#designbox2{
+		grid-column: 1/ span 4;
+		grid-row: 22/ span 1;
+	}
+	
+	#designbildbox2{
+		width:25%;
+		height:auto;
+	}
+	
+	#designbox3{
+		grid-column: 1/ span 4;
+		grid-row: 23/ span 1;
+	}
+	
+	#designbildbox3{
+		width:25%;
+		height:auto;
+	}
+	
+	#designbox4{
+		grid-column: 1/ span 4;
+		grid-row: 24/ span 1;
+	}
+	
+	#designbildbox4{
+		width:25%;
+		height:auto;
+	}
+	
+	#designbox5{
+		grid-column: 1/ span 4;
+		grid-row: 25/ span 1;
+	}
+	
+	#designbildbox5{
+		width:25%;
+		height:auto;
+	}
+	
+	#aboutbox1{
+		background-attachment: initial;
+		background-size: 100%;
+		grid-column: 1/ span 4;
+		grid-row: 26/ span 1;
+	}
+	
+	#aboutbox2{
+		grid-column: 1/ span 4;
+		grid-row: 27/ span 1;
+	}
+	
+	#aboubildbox2{
+		width:auto;
+		height:80%;
+	}
+	
+	#aboutbox3{
+		padding-top: 20px;
+		font-size: 12px;
+		grid-column: 1/ span 4;
+		grid-row: 28/ span 1;
+	}
+	
+	#aboubildbox3{
+		width:auto;
+		height:50%;
+	}
+
+	p{
+		align-items: center;
+		justify-content: center;
+	   }
 }
-*/
 
-
-@media screen and (min-width: 481px) and (max-width: 767px),  (min-width: 768px) and (max-width: 1024px){
+@media screen and (min-width: 481px) and (max-width: 767px)/*,  (min-width: 768px) and (max-width: 1024px)*/{
 
 	h1 {
 		font-size:20px;
@@ -962,7 +1256,7 @@ figcaption{
 	}
 	
 	#designbildbox4{
-		width:45%;
+		width:40%;
 		height:auto;
 	}
 	
@@ -1119,7 +1413,6 @@ figcaption{
 	}
 	
 	#illubildbox3{
-		border:none;
 		width:85%;
 		height:auto;
 	}
@@ -1130,7 +1423,6 @@ figcaption{
 	}
 	
 	#illubildbox4{
-		border:none;
 		width:85%;
 		height:auto;
 	}
