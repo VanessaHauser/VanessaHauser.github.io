@@ -686,13 +686,13 @@ figcaption{
 	}
 
 	#box1{
-		background-attachment: initial;
-		background-size: 100%;
 		grid-column: 1/ span 4;
 		grid-row: 1/ span 1;
 	}
 
 	#illubox1{
+		background-attachment: initial;
+		background-size: 80%;
 		grid-column: 1/ span 4;
 		grid-row: 2/ span 1;
 	}
@@ -756,6 +756,8 @@ figcaption{
 	}
 	
 	#animbox1{
+		background-attachment: initial;
+		background-size: 80%;
 		grid-column: 1/ span 4;
 		grid-row: 9/ span 1;
 	}
@@ -804,7 +806,7 @@ figcaption{
 	
 	#storybox1{
 		background-attachment: initial;
-		background-size: 100%;
+		background-size: 80%;
 		grid-column: 1/ span 4;
 		grid-row: 14/ span 1;
 	}
@@ -873,7 +875,7 @@ figcaption{
 	
 	#designbox1{
 		background-attachment: initial;
-		background-size: 100%;
+		background-size: 80%;
 		grid-column: 1/ span 4;
 		grid-row: 21/ span 1;
 	}
@@ -920,7 +922,7 @@ figcaption{
 	
 	#aboutbox1{
 		background-attachment: initial;
-		background-size: 100%;
+		background-size: 80%;
 		grid-column: 1/ span 4;
 		grid-row: 26/ span 1;
 	}
@@ -1036,13 +1038,13 @@ figcaption{
 	}
 
 	#box1{
-		background-attachment: initial;
-		background-size: 100%;
 		grid-column: 1/ span 4;
 		grid-row: 1/ span 1;
 	}
 
 	#illubox1{
+		background-attachment: initial;
+		background-size: 100%;
 		grid-column: 1/ span 4;
 		grid-row: 2/ span 1;
 	}
@@ -1106,6 +1108,8 @@ figcaption{
 	}
 	
 	#animbox1{
+		background-attachment: initial;
+		background-size: 100%;
 		grid-column: 1/ span 4;
 		grid-row: 9/ span 1;
 	}
@@ -1115,8 +1119,6 @@ figcaption{
 		grid-row: 10/ span 1;
 	}
 	#video1{
-		background-attachment: initial;
-		background-size: 100%;
 		width:80%;
 		height:auto;
 	}
