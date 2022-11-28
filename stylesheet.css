@@ -27,13 +27,16 @@ font-family:'koven';
 }
 
 #impressummain{
-	font-family: shadowsintolight, sans-serif;
+	font-size: 16px;
+	font-family: shadows-into-light, sans-serif;
+	font-weight: 600;
+	font-style: normal;
 	display:flex;
 
 }
 
 #impressumstext{
-	font-family: shadowsintolight, sans-serif;
+
 	padding: 20px;
 	padding-top: 20px;
 	font-size: 12px;
