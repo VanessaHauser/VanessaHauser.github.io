@@ -20,6 +20,26 @@ font-family:'koven';
 	   src: local(''),
 	   url('C:/Users/Vanessa/Documents/00 FONTS/Shadows_Into_Light/ShadowsIntoLight-Regular.ttf') format(truetype);
 	}
+
+.titel{
+	text-align: left;
+	font-family:'koven';
+}
+
+#impressummain{
+	font-family: shadowsintolight, sans-serif;
+	display:flex;
+
+}
+
+#impressumstext{
+	font-family: shadowsintolight, sans-serif;
+	padding: 20px;
+	padding-top: 20px;
+	font-size: 12px;
+}
+
+
 	
 
 
