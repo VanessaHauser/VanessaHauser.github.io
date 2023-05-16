@@ -248,8 +248,8 @@ figcaption{
 
 #illubox1{
 	display:flex;
-	background-image:url("hintergründe/hintergrund1.png");
-	background-color: lightgreen;
+	/*background-image:url("hintergründe/hintergrund3.png");*/
+	background-color: #9280FF;
 	background-size:80%;
 	background-repeat:no-repeat;
 	background-position:center;
@@ -340,8 +340,8 @@ figcaption{
 
 #animbox1{
 	display: flex;
-	background-image:url("hintergründe/hintergrund2.png");
-	background-color: #62D9FF;
+	/*background-image:url("hintergründe/hintergrund3.png");*/
+	background-color: #9280FF;
 	background-size:80%;
 	background-repeat:no-repeat;
 	background-position:center;
@@ -410,7 +410,7 @@ figcaption{
 
 #storybox1{
 	display: flex;
-	background-image:url("hintergründe/hintergrund3.png");
+	/*background-image:url("hintergründe/hintergrund3.png");*/
 	background-color: #9280FF;
 	background-size:80%;
 	background-repeat:no-repeat;
@@ -437,7 +437,7 @@ figcaption{
 
 #storybox2_2{
 	display: flex;
-	background-color: black;
+	/*background-color: black;*/
 	align-items: center;
 	justify-content: center;
 	grid-column: 3/ span 2;
@@ -465,7 +465,7 @@ figcaption{
 
 #storybox3_2{
 	display: flex;
-	background-color: black;
+	/*background-color: black;*/
 	align-items: center;
 	justify-content: center;
 	grid-column: 3/ span 2;
@@ -494,7 +494,7 @@ figcaption{
 
 #storybox4_2{
 	display: flex;
-	background-color: black;
+	/*background-color: black;*/
 	background-size:57% 70%;
 	background-repeat:no-repeat;
 	background-position:center;
@@ -513,8 +513,8 @@ figcaption{
 
 #designbox1{
 	display: flex;
-	background-image:url("hintergründe/hintergrund4.png");
-	background-color: #D375FF;
+	/*background-image:url("hintergründe/hintergrund3.png");*/
+	background-color: #9280FF;
 	background-size:80%;
 	background-repeat:no-repeat;
 	background-position:center;
@@ -583,8 +583,8 @@ figcaption{
 
 #aboutbox1{
 	display: flex;
-	background-image:url("hintergründe/hintergrund5.png");
-	background-color:#FF88C1;
+	/*background-image:url("hintergründe/hintergrund3.png");*/
+	background-color: #9280FF;
 	background-size:80%;
 	background-repeat:no-repeat;
 	background-position:center;
